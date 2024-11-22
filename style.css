@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #121212;
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #1c1c1c;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ddd;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #292929;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.hero .btn {
+  background: #ff4500;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background: #ff6347;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+/* Tokenomics & Roadmap */
+#tokenomics ul,
+#roadmap ol {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1c1c1c;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ddd;
+}
+
+footer .social-links a:hover {
+  color: white;
+}
